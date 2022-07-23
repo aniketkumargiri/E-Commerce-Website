@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Web</title>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+
+<body onload="login()">
+    <div class="slide-div">
+        <div class="slide">
+            <img class="nature" src="resources/4.jpg" width="100%">
+            <img class="nature" src="resources/2.jpeg" width="100%">
+            <img class="nature" src="resources/3.jpg" width="100%">
+        </div>
+    </div>
+
+    <script>
+        w3.slideshow(".nature", 3500);
+    </script>
+
+
+    <h2 id="shoes" class="heading1">Shoes</h2>
+    <div class="product-cover s-cover">
+        <div class="product-boxes">
+            <div class="shoes-1 product s">
+            </div>
+            <div class="shoes-2 product s">
+            </div>
+            <div class="shoes-3 product s">
+            </div>
+            <div class="shoes-4 product s">
+            </div>
+            <a href="" class="product-book " onclick="goToProduct(event,101)"> View Product</a>
+            <a href="" class="product-book" onclick="goToProduct(event,102)"> View Product</a>
+            <a href="" class="product-book" onclick="goToProduct(event,103)"> View Product</a>
+            <a href="" class="product-book" onclick="goToProduct(event,104)"> View Product </a>
+        </div>
+    </div>
+
+
+    <h2 id="watches" class="heading1">Watches</h2>
+    <div class="product-cover w-cover">
+        <div class="product-boxes w-cover">
+            <div class="watches-1 product w">
+            </div>
+            <div class="watches-2 product w">
+            </div>
+            <div class="watches-3 product w">
+            </div>
+            <div class="watches-4 product w">
+            </div>
+            <a href="" class="product-book" onclick="goToProduct(event,105)"> View Product</a>
+            <a href="" class="product-book" onclick="goToProduct(event,106)"> View Product</a>
+            <a href="" class="product-book" onclick="goToProduct(event,107)"> View Product</a>
+            <a href="" class="product-book" onclick="goToProduct(event,108)"> View Product</a>
+        </div>
+    </div>
+
+
+    <h2 id="mobiles" class="heading1">Mobiles</h2>
+    <div class="product-cover m-cover">
+        <div class="product-boxes">
+            <div class="mobiles-1 product m">
+            </div>
+            <div class="mobiles-2 product m">
+            </div>
+            <div class="mobiles-3 product m">
+            </div>
+            <div class="mobiles-4 product m">
+            </div>
+            <a href="" class="product-book" onclick="goToProduct(event,109)"> View Product</a>
+            <a href="" class="product-book" onclick="goToProduct(event,110)"> View Product</a>
+            <a href="" class="product-book" onclick="goToProduct(event,111)"> View Product</a>
+            <a href="" class="product-book" onclick="goToProduct(event,112)"> View Product</a>
+        </div>
+    </div>
+
+
+    <h2 id="laptops" class="heading1">Laptops</h2>
+    <div class="product-cover l-cover">
+        <div class="product-boxes">
+            <div class="laptop-1 product l">
+            </div>
+            <div class="laptop-2 product l ">
+            </div>
+            <div class="laptop-3 product l ">
+            </div>
+            <div class="laptop-4 product l">
+            </div>
+            <a href="" class="product-book" onclick="goToProduct(event,113)"> View Product</a>
+            <a href="" class="product-book" onclick="goToProduct(event,114)"> View Product</a>
+            <a href="" class="product-book" onclick="goToProduct(event,115)"> View Product</a>
+            <a href="" class="product-book" onclick="goToProduct(event,116)"> View Product</a>
+        </div>
+    </div>
+
+    <h2 id="clothes" class="heading1">Clothes</h2>
+    <div class="product-cover k-cover">
+        <div class="product-boxes">
+            <div class="kurta-1 product k">
+            </div>
+            <div class="kurta-2 product k">
+            </div>
+            <div class="kurta-3 product k">
+            </div>
+            <div class="kurta-4 product k">
+            </div>
+            <a href="" class="product-book" onclick="goToProduct(event,117)"> View Product</a>
+            <a href="" class="product-book" onclick="goToProduct(event,118)"> View Product</a>
+            <a href="" class="product-book" onclick="goToProduct(event,119)"> View Product</a>
+            <a href="" class="product-book" onclick="goToProduct(event,120)"> View Product</a>
+        </div>
+    </div>
+
+    <footer>
+        <div style="min-height: 250px;" class="footer" id="footer-sub">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3> HELP </h3>
+                        <ul>
+                            <li><a href="">Payments</a>
+                                <hr>
+                            </li>
+                            <li><a href="">Saved Cards</a>
+                                <hr>
+                            </li>
+                            <li><a href="">Shipping</a>
+                                <hr>
+                            </li>
+                            <li><a href="">Cancellation & Returns</a>
+                                <hr>
+                            </li>
+                            <li><a href="">FAQ</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h3> Amenity Oneshop </h3>
+                        <ul>
+                            <li><a href="">Contact Us</a>
+                                <hr>
+                            </li>
+                            <li><a href="">About Us</a>
+                                <hr>
+                            </li>
+                            <li><a href="">Careers</a>
+                                <hr>
+                            </li>
+                            <li><a href="">Press</a>
+                                <hr>
+                            </li>
+                            <li><a href="">Sell on our website</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h3> MISC </h3>
+                        <ul>
+                            <li><a href="">Online Shopping</a>
+                                <hr>
+                            </li>
+                            <li><a href="">Affliate Program</a>
+                                <hr>
+                            </li>
+                            <li><a href="">Gift Card</a>
+                                <hr>
+                            </li>
+                            <li><a href="">Subscription</a>
+                                <hr>
+                            </li>
+                            <li><a href="">Sitemap</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+                <hr style="margin-bottom:0px; margin-top:30px; padding:0px;">
+                <div class="row" id="sub-two">
+
+                    <div class="col-md-4">
+                        <div class="vertical-line text-center">
+                            <span class="glyphicon glyphicon-map-marker"></span>
+                            <h4>TRACK YOUR ORDER</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="vertical-line text-center">
+                            <span class="glyphicon glyphicon-refresh"></span>
+                            <h4>FREE & EASY RETURNS</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div style="margin:8px;" class="text-center">
+                            <span class="glyphicon glyphicon-remove-circle"></span>
+                            <h4 style="color:#6d6c6c;">ONLINE CANCELLATIONS</h4>
+                        </div>
+                    </div>
+                </div>
+                <hr style="margin-bottom:30px; margin-top:0px; padding:0px;">
+            </div>
+        </div>
+
+
+        <div style="min-height: 50px;" id="footer-main">
+
+            <ul>
+                <li><a href=""><b>About Us</b></a></li>
+                <li><a href=""><b>Partner with us</b></a></li>
+                <li><a href=""><b>Terms & Conditions</b></a></li>
+                <li><a href=""><b>Blog</b></a></li>
+                <li><a href=""><b>Customer Service</b></a></li>
+            </ul>
+
+            <div id="social-menu">
+                <ul>
+                    <li><a href=""><img style="max-width:18px; margin-top: -7px;" src=""></a></li>
+                    <li><a href=""><img style="max-width:18px; margin-top: -7px;" src=""></a></li>
+                    <li><a href=""><img style="max-width:18px; margin-top: -7px;" src=""></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+    <div id="nav">
+        <div class="logo">
+            Amenity Oneshop
+        </div>
+        <div class="nav-link">
+            <a href="./project.html" class="Nav_element active">Home</a>
+            <a href="#shoes" class="Nav_element">Shoes</a>
+            <a href="#watches" class="Nav_element">Watches</a>
+            <a href="#mobiles" class="Nav_element">Mobiles</a>
+            <a href="#laptops" class="Nav_element">Laptops</a>
+            <a href="#clothes" class="Nav_element">Clothes</a>
+            <a href="details.xml" class="Nav_element">All Products</a>
+            <a id="login" href="login.php" class="Nav_element">Login</a>
+            <a href="./cart.html"> <img src="./resources/cart2.png" width="25px" </a>
+            <a href="./cart.html" class="Nav_element">&nbsp;&nbsp;&nbsp;Cart</a>
+        </div>
+    </div>
+    <script type="text/javascript" src="project.js"></script>
+
+</body>
+
+</html>

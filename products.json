@@ -1,0 +1,162 @@
+[
+	{
+		"id": 101,
+		"title": "Puma Shoes",
+		"description": "A pair of black running shoes, has regular Styling, lace-ups detail$Textured and patterned outsole$Warranty: 3 months",
+		"price": 2199,
+		"rating": 4.7,
+		"image": "./resources/product 1.png" 
+	},
+	{
+		"id": 102,
+		"title": "Nike Shoes",
+		"description": "A pair of blue running shoes, has regular styling, lace-ups detail$Mesh upper$Cushioned footbed$Textured and patterned outsole$Warranty: 6 months against manufacturing defects (not valid on products with more than 20% discount)$Warranty provided by Brand Owner / Manufacturer",
+		"price": 8299,
+		"rating": 4.2,
+		"image": "./resources/product 2.png" 
+	},
+	{
+		"id": 103,
+		"title": "Reebok Shoes",
+		"description": "A pair of black & white running sports shoes, has regular styling, lace-up detail$Synthetic upper$Cushioned footbed$Brand colour: VECTOR BLUE-VECTOR$Textured and patterned outsole$Warranty: 3 months$Warranty provided by brand/manufacturer",
+		"price": 1499,
+		"rating": 4.3,
+		"image": "./resources/product 3.png" 
+	},
+	{
+		"id": 104,
+		"title": "Adidas Shoes",
+		"description": "Main materials: Textile upper/ Synthetic outsole$Brand colour: STONE/DRKROY/VIVRED$Lace closure$Warranty: 3 months$Warranty provided by brand/manufacturer",
+		"price": 2399,
+		"rating": 4.6,
+		"image": "./resources/product 4.png" 
+	},
+	{
+		"id": 105,
+		"title": "Fossil Watch",
+		"description": "Display: Analogue$Movement: Quartz$Power source: Battery$Dial style: Solid round stainless steel dial$Features: Reset Time, Chronograph, Date Aperture$Strap style: Gold-Toned regular, stainless steel strap with a foldover closure$Water resistance: 100 m$Warranty: 2 years$Warranty provided by brand/manufacturer$Comes in a signature Fossil case",
+		"price": 4999,
+		"rating": 4.7,
+		"image": "./resources/product 5.png" 
+	},
+	{
+		"id": 106,
+		"title": "Diesel Smart Watch",
+		"description": "Compatibility: Android OS 4.4+(excluding Go edition), iOS 9.3+$Processor name: Snapdragon Wear 2100$Processor speed: 1.2 GHz$Ram: 512 MB$Internal memory: 4 GB$Display type: AMOLED$Display size: 1.39, Active Area Diameter/400 x 400$Other display features: 328ppi$Sensor: gyroscope, Heart rate, Accelerometer, Ambient light$Other watch functions: GPS, NFC payments, Swimproof$Smart Assistant: Simple touch or voice command$Bluetooth version: v4.1$Microphone: Built-in microphone$Battery capacity: 300 Amph$Water resistance: IP67$Warranty: 2-year$Warranty against manufacturing defects",
+		"price": 16999,
+		"rating": 4.4,
+		"image": "./resources/product 6.png" 
+	},
+	{
+		"id": 107,
+		"title": "Real Watch",
+		"description": "Get the realme Watch S smartwatch and stay on track with your fitness goals, thanks to its up to 16 sports modes tracking, heart rate monitor, and blood oxygen monitor$This smartwatch lasts for up to 15 days when charged for just 2 hours, thanks to its long-lasting battery life$It is also water-resistant, making it perfect for daily usage.",
+		"price": 4999,
+		"rating": 4.1,
+		"image": "./resources/product 7.png" 
+	},
+	{
+		"id": 108,
+		"title": "Apple Watch",
+		"description": "Low and high heart rate notifications$Emergency SOS$New Breathe watch faces.$Automatic workout detection$New yoga and hiking workouts$Advanced features for runners like cadence and pace alerts$New head-to-head competitions$Activity sharing with friends$Personalized coaching$Monthly challenges and achievement awards$Walkie-Talkie, make phone calls, and send messages$Listen to Apple Music and Apple Podcasts$Use Siri in all-new ways$Warranty: 1 Year$Warranty provided by Brand/Manufacturer",
+		"price": 16999,
+		"rating": 4.8,
+		"image": "./resources/product 8.png" 
+	},
+	{
+		"id": 109,
+		"title": "Samsung Galaxy M31",
+		"description": "8 GB RAM | 128 GB ROM | Expandable Upto 512 GB <br>$16.26 cm (6.4 inch) Full HD+ Display <br>$64MP + 8MP + 5MP + 5MP | 32MP Front Camera <br>$6000 mAh Battery$1 year manufacturer warranty for device and 6 months manufacturer warranty $for in-box accessories including batteries from the date of purchase Box also$includes: Travel Adapter, USB Cable, Ejection Pin, User Manual Fast face unlock$and fingerprint sensor",
+		"price": 19500,
+		"rating": 4.1,
+		"image": "./resources/product 9.png" 
+	},
+	{
+		"id": 110,
+		"title": "Redmi 9",
+		"description": "4 GB RAM | 64 GB ROM$16.59 cm (6.53 inch) HD+ Display$13MP + 2MP | 5MP Front Camera$5000 mAh Battery$MediaTek Helio G35 Processor",
+		"price": 10999,
+		"rating": 4.3,
+		"image": "./resources/product 10.png" 
+	},
+	{
+		"id": 111,
+		"title": "iPhone 11",
+		"description": "64 GB ROM$15.49 cm (6.1 inch) Liquid Retina HD Display$12MP + 12MP | 12MP Front Camera$A13 Bionic Chip Processor",
+		"price": 52000,
+		"rating": 4.4,
+		"image": "./resources/product 11.png" 
+	},
+	{
+		"id": 112,
+		"title": "Oppo F19 Pro+ 5G",
+		"description": "8 GB RAM | 128 GB ROM | Expandable Upto 256 GB$16.33 cm (6.43 inch) Full HD+ Display$48MP + 8MP + 2MP + 2MP | 16MP Front Camera$4310 mAh Lithium-ion Polymer Battery$MediaTek Dimensity 800U Processor",
+		"price": 25990,
+		"rating": 4.5,
+		"image": "./resources/product 12.png" 
+	},
+	{
+		"id": 113,
+		"title": "HP 15s Ryzen 3 Dual Core 3250U",
+		"description": "Pre-installed Genuine Windows 10 OS$Preloaded with MS Office$Light Laptop without Optical Disk Drive$15.6 inch Full HD LED Backlit Anti-glare IPS Micro-edge Display (250 nits Brightness, 45% NTSC Color Gamut, 141 PPI)",
+		"price": 41990,
+		"rating": 4.4,
+		"image": "./resources/product 13.png" 
+	},
+	{
+		"id": 114,
+		"title": "HP G4 Core i7 7th Gen",
+		"description": "Windwos 10 pro 64-bit$Pre-installed Genuine Windows 10 OS$Preloaded with MS Office$Light Laptop without Optical Disk Drive$14 inch",
+		"price": 245999,
+		"rating": 4.9,
+		"image": "./resources/product 14.png" 
+	},
+	{
+		"id": 115,
+		"title": "DELL G7 Core i9 10th Gen",
+		"description": "15.6 inch Full HD LED Backlit Anti-glare Display$Light Laptop without Optical Disk Drive$Pre-installed Genuine Windows 10 OS$Preloaded with MS Office",
+		"price": 179990,
+		"rating": 4.9,
+		"image": "./resources/product 15.png" 
+	},
+	{
+		"id": 116,
+		"title": "ASUS ZenBook Pro 15 Core i9 8th Gen",
+		"description": "Pre-installed Genuine Windows 10 OS$Light Laptop without Optical Disk Drive$15.6 inch Ultra HD LED Backlit Wideview Glare Touch Display",
+		"price": 204990,
+		"rating": 4.6,
+		"image": "./resources/product 16.png" 
+	},
+	{
+		"id": 117,
+		"title": "Manyavar-Men Olive Green Solid Straight Kurta",
+		"description": "Olive green solid straight kurta, $has a mandarin collar, button closures, long sleeves, $straight hem, two pockets, and side slits$Material: Cotton blend$Dry Clean",
+		"price": 1049,
+		"rating": 4.0,
+		"image": "./resources/product 17.png" 
+	},
+	{
+		"id": 118,
+		"title": "KISAH-Men Cream-Coloured Printed Kurta",
+		"description": "Cream-Coloured printed kurta with churidar$Cream-Coloured straight knee length kurta, has a mandarin collar, long sleeves, straight hem$Cream-Coloured solid churidar, drawstring closure",
+		"price": 3359,
+		"rating": 4.3,
+		"image": "./resources/product 18.png" 
+	},
+	{
+		"id": 119,
+		"title": "House of Pataudi-Men Black & Maroon Woven Design Straight Kurta",
+		"description": "Black and Maroon woven design straight kurta, has a mandarin collar, $long sleeves, straight hem, and side slits$52% cotton, 48% polyester$Hand-wash",
+		"price": 2099,
+		"rating": 4.4,
+		"image": "./resources/product 19.png" 
+	},
+	{
+		"id": 120,
+		"title": "Anouk-Men Black Solid Pathani Kurta",
+		"description": "Black solid pathani kurta with Dhoti pants$Black solid pathani knee length kurta, has a shirt collar, button closures, long sleeves, two pockets, straight hem, side slits$Black solid Dhoti pants, has partially elasticated waistband, slip-on closure",
+		"price": 1649,
+		"rating": 4.1,
+		"image": "./resources/product 20.png" 
+	}
+]

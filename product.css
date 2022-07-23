@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display&display=swap");
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+.heading{
+    /* font-family: "Trebuchet MS", sans-serif; */
+    font-size: 20px;
+    /* letter-spacing: -2px; */
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+}
+.heading-center{
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+.container{
+    margin-top: 40px;
+    display: flex;
+    padding: 30px;
+}
+.image-container {
+    width: 45%;
+    padding: 10px;
+}
+.image-container img{
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+    text-align: right;
+}
+.info-container {
+    width: 45%;
+    padding: 10px;
+}
+.product-image{
+    text-align: center;
+}
+.add-to-cart-btn{
+    width: 200px;
+    margin-top: 25px;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.add-to-cart-btn:hover{
+    cursor: pointer;
+    background-color: #0b7a27;
+}
+.back-to-shop-btn{
+    width: 200px;
+    margin-top: 25px;
+    background-color: #dc3545;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.back-to-shop-btn:hover{
+    background-color: #c01828;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: column; */
+}
+.product-title{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.product-description{
+    font-size: 20px;
+}
+.line{
+    border: 1px solid black;
+    background-color: black;
+    opacity: 0.1;
+    margin: 10px 0 20px;
+}
+.product-price{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.product-rating{
+    font-size: 20px;
+    /* margin-bottom: 40px; */
+}
+.description-heading{
+    font-size: 20px;
+    font-weight: bold;
+}
+ul{
+    margin: 10px 0 ;
+}
+#nav {
+    color: whitesmoke;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding:10px;
+    padding-right: 50px;
+    background-color:  rgb(51,47,47);
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    font-family:inherit ;
+    padding-left: 30px;
+}
+.nav-link{
+    padding-top: 5px;
+    padding-right: 20px;
+    text-align: right;
+}
+.Nav_element{
+    padding-top: 10px;
+    color: whitesmoke;
+    margin: 0px;
+    font-size: 18px;
+    padding-right: 15px;
+    text-decoration: none !important;
+}
+#nav a.active {
+    color: #2874f0;
+    text-decoration: none !important;
+}
+#nav a:hover {
+    color: #2874f0;
+    text-decoration: none !important;
+}
+
+#footer-sub{
+    background-color: #f3f7f8;
+    border-top: 1px solid #dbdbdb;
+}
+
+#footer-main{
+    background-color:  rgb(51,47,47);
+}
+
+#footer-sub h5{
+    color:#565656;
+    margin-top: 25px;
+}
+
+#footer-sub ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+#footer-sub hr{
+    margin: 5px;
+
+}
+
+#footer-sub ul li{
+margin-left: -38px;
+}
+
+#footer-sub a:link {
+    text-decoration: none;
+    color:#565656;
+    font-size: 12px;
+}
+
+#footer-sub a:visited {
+    text-decoration: none;
+    color:#565656;
+}
+
+
+#footer-sub a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+
+#footer-sub a:active {
+    text-decoration: none;
+    color:#565656;
+}
+
+.vertical-line{
+    border-right: 1px solid #dbdbdb;
+    margin: 8px;
+    padding: 0px;
+}
+
+.glyphicon {
+    font-size: 35px;
+     color:#6d6c6c;
+}
+
+#sub-two{
+    margin: 0px;
+    padding: 0px;
+}
+
+#sub-two .vertical-line h4{
+    color:#6d6c6c;
+}
+
+
+#footer-main ul{
+    list-style: none;
+}
+
+#footer-main ul li{
+    float:left;
+    text-decoration: none;
+    padding-left: 15px;
+    margin-top: 17px;
+}
+
+#footer-main a:link {
+    color:white;
+    font-size: 12px;
+}
+
+#footer-main a:visited {
+    color:white;
+}
+
+
+#footer-main a:hover {
+    text-decoration: none;
+    color: #00b9f5;
+}
+
+
+#footer-main a:active {
+    color:white;
+}
+
+.glyphicon-search{
+    font-size: 20px;
+}
+
+#social-menu{
+    float: right;
+   margin-right: 60px;
+}
+
+#side-padding{
+    padding: 0px;
+    margin: 0px;
+}
+.col-md-4{
+    text-align: center;
+    font-family: "Open Sans", "sans-serif" !important;
+    font-size: 20px !important;
+}
+li{
+    font-size: 20px;
+}
+footer .container{
+    display: flex;
+    flex-direction: column;
+}

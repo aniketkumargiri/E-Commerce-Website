@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="cart.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <title>Online Shopping Website - Cart</title>
+</head>
+<body onload="getCartDetails(event)">
+    <div id="nav">
+        <div class="logo">
+            Amenity Oneshop
+        </div>
+        <div class="nav-link">
+            <a href="./project.html" class="Nav_element">Home</a>
+            <a href="./project.html#shoes" class="Nav_element">Shoes</a>
+            <a href="./project.html#watches" class="Nav_element">Watches</a>
+            <a href="./project.html#mobiles" class="Nav_element">Mobiles</a>
+            <a href="./project.html#laptops" class="Nav_element">Laptops</a>
+            <a href="./project.html#clothes" class="Nav_element">Clothes</a>
+            <a href="details.xml" class="Nav_element">All Products</a>
+            <a id="login" href="login.php" class="Nav_element">Login</a>
+            <a href="./cart.html"> <img src="./resources/cart2.png" width="25px"> </a>
+                <a href="./cart.html" class="Nav_element active">&nbsp;&nbsp;&nbsp;Cart</a>
+        </div>
+    </div>
+    <div class="cart-container">
+        <!-- <div class="products">
+            <div class="product-container">
+                <div class="image">
+                    <img src = "resources/product 1.png">
+                </div>
+                <div class="product-info">
+                    <div class="title">Puma Shoes</div>
+                    <div class="price">Price: Rs.2199</div>
+                    <div class="rating">Rating: 4.7</div>
+                    <button class="remove-btn">Remove from Cart</button>
+                </div>
+            </div>
+            <div class="product-container">
+                <div class="image">
+                    <img src = "resources/product 10.png">
+                </div>
+                <div class="product-info">
+                    <div class="title">Nike Shoes</div>
+                    <div class="price">Price</div>
+                    <div class="rating">Rating</div>
+                    <button class="remove-btn">Remove from Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="summary">
+            <div class="summary-container">
+                <div class="summary-title">
+                    Summary
+                </div>
+                <div class="summary-items">
+                    Total Items: 2
+                </div>
+                <div class="summary-price">
+                    Total Price: 16000
+                </div>
+                <button class="buy-btn">Buy now</button>
+            </div>
+        </div> -->
+        <!-- <div class="empty-cart-container">
+            <img src="./resources/emptycart.png">
+            <div class="empty-cart-text">Cart is Empty!</div>
+            <div class="empty-cart-subtext">Looks like you have no items in your shopping cart.</div>
+            <button class="continue-shopping">Continue Shopping</button>
+        </div> -->
+    </div>
+    <footer>
+        <div style="min-height: 250px;" class="footer" id="footer-sub">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3> HELP </h3>
+                        <ul>
+                            <li><a href="">Payments</a>
+                                <hr>
+                            </li>
+                            <li><a href="">Saved Cards</a>
+                                <hr>
+                            </li>
+                            <li><a href="">Shipping</a>
+                                <hr>
+                            </li>
+                            <li><a href="">Cancellation & Returns</a>
+                                <hr>
+                            </li>
+                            <li><a href="">FAQ</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h3> Amenity Oneshop </h3>
+                        <ul>
+                            <li><a href="">Contact Us</a>
+                                <hr>
+                            </li>
+                            <li><a href="">About Us</a>
+                                <hr>
+                            </li>
+                            <li><a href="">Careers</a>
+                                <hr>
+                            </li>
+                            <li><a href="">Press</a>
+                                <hr>
+                            </li>
+                            <li><a href="">Sell on our website</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h3> MISC </h3>
+                        <ul>
+                            <li><a href="">Online Shopping</a>
+                                <hr>
+                            </li>
+                            <li><a href="">Affliate Program</a>
+                                <hr>
+                            </li>
+                            <li><a href="">Gift Card</a>
+                                <hr>
+                            </li>
+                            <li><a href="">Subscription</a>
+                                <hr>
+                            </li>
+                            <li><a href="">Sitemap</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+                <hr style="margin-bottom:0px; margin-top:30px; padding:0px;">
+                <div class="row" id="sub-two">
+
+                    <div class="col-md-4">
+                        <div class="vertical-line text-center">
+                            <span class="glyphicon glyphicon-map-marker"></span>
+                            <h4>TRACK YOUR ORDER</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="vertical-line text-center">
+                            <span class="glyphicon glyphicon-refresh"></span>
+                            <h4>FREE & EASY RETURNS</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div style="margin:8px;" class="text-center">
+                            <span class="glyphicon glyphicon-remove-circle"></span>
+                            <h4 style="color:#6d6c6c;">ONLINE CANCELLATIONS</h4>
+                        </div>
+                    </div>
+                </div>
+                <hr style="margin-bottom:30px; margin-top:0px; padding:0px;">
+            </div>
+        </div>
+
+
+        <div style="min-height: 50px;" id="footer-main">
+
+            <ul>
+                <li><a href=""><b>About Us</b></a></li>
+                <li><a href=""><b>Partner with us</b></a></li>
+                <li><a href=""><b>Terms & Conditions</b></a></li>
+                <li><a href=""><b>Blog</b></a></li>
+                <li><a href=""><b>Customer Service</b></a></li>
+            </ul>
+
+            <div id="social-menu">
+                <ul>
+                    <li><a href=""><img style="max-width:18px; margin-top: -7px;" src=""></a></li>
+                    <li><a href=""><img style="max-width:18px; margin-top: -7px;" src=""></a></li>
+                    <li><a href=""><img style="max-width:18px; margin-top: -7px;" src=""></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+    <script type="text/javascript" src="cart.js"></script>  
+</body>
+</html>
+
